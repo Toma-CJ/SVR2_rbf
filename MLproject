@@ -1,0 +1,10 @@
+name: SVR2_rbf
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+  
+    parameters:
+      experiment_name: {type: str}
+    command: "python svr_train.py"
