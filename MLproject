@@ -6,5 +6,5 @@ entry_points:
   main:
   
     parameters:
-      experiment_name: {type: str}
+      experiment_name: {type: str, default: "reproduce_ex"}
     command: "python svr_train.py"

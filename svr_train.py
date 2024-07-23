@@ -23,7 +23,7 @@ from sklearn.linear_model import SGDRegressor
 
 
 import sys
-experiment_name = str(sys.argv[1]) if len(sys.argv) > 1 else sys.exit()
+experiment_name = str(sys.argv[1]) if len(sys.argv) > 1 else "reproduce_ex"
 
 settings = {
     'host': 'influxus.itu.dk',
